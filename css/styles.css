@@ -69,7 +69,8 @@ body {
 /* section */
 
 .feature-list .title,
-.team-list .title  {
+.team-list .title,
+.portfolio-list .title {
   color: var(--title-text-color);
 }
 
