@@ -29,7 +29,7 @@ body {
 .logo-head:focus,
 .logo-foot:hover,
 .logo-foot:focus {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
 }
 
 .list {
@@ -47,8 +47,17 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .cont-nav a {
   color: var(--primary-text-color);
+}
+
+.list .cont:hover,
+.list .cont:focus {
+  color: var(--accent-color);
 }
 
 /* hero */
@@ -59,7 +68,8 @@ body {
 
 /* section */
 
-.feature-list .title {
+.feature-list .title,
+.team-list .title  {
   color: var(--title-text-color);
 }
 
@@ -75,9 +85,30 @@ body {
     border-color: transparent;
 }
 
-.button.primary:hover {
+.button.primary:hover,
+.button.primary:focus {
     color: var(--accent-color);
     background-color:  var(--primary-background-color);
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color:  var(--primary-background-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+
+/* footer */
+.address-addr {
+  color: var(--primary-background-color)
+}
+
+.address .cont {
+  color:rgba(255, 255, 255, 0.6);
 }
 
 /* accent-color: ##2196f3 - blue
