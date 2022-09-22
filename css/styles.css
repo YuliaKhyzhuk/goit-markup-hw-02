@@ -1,0 +1,111 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-background-color: #FFFFFF;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+/* logo */
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-head {
+  color: #000000;
+}
+
+.logo-foot {
+  color: var(--primary-background-color);
+}
+
+.logo:hover,
+.logo:focus,
+.logo-head:hover,
+.logo-head:focus,
+.logo-foot:hover,
+.logo-foot:focus {
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.cont-nav a {
+  color: var(--primary-text-color);
+}
+
+/* hero */
+
+.hero-title {
+  color: var(--primary-background-color);
+}
+
+/* section */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+.section-title {
+    color: #212121;
+}
+
+/*button*/
+
+.button {
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
+}
+
+.button.primary:hover {
+    color: var(--accent-color);
+    background-color:  var(--primary-background-color);
+}
+
+/* accent-color: ##2196f3 - blue
+title-text-color: ##212121 - black (not logo) 
+primary-text-color: ##757575 - grey
+
+.site-nav a:active {
+  color: ;
+}
+*/
+
+/* logo black  #000000 blue #2196F3
+nav
+#212121
+head phjone #757575
+
+hero, footer background black #2F303A 
+hero text white  #FFFFFF
+accent blue замовити, logo, email #2196F3
+
+features h3 #212121
+features text #757575
+
+what we do, our team, team names #212121
+team background
+team positions #757575
+
+footer logo blue #2196F3 white #FFFFFF
+address #FFFFFF
+email tel rgba(255, 255, 255, 0.6)
+*/
