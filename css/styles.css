@@ -1,20 +1,25 @@
 :root {
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196f3;
-    --primary-background-color: #FFFFFF;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
 }
 
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  
+
   font-family: 'Roboto', sans-serif;
 }
 
 /* logo */
 .logo {
   color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  
+  font-size: 26px;
+  line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo-head {
@@ -27,11 +32,9 @@ body {
 
 .logo:hover,
 .logo:focus,
-.logo-head:hover,
-.logo-head:focus,
-.logo-foot:hover,
-.logo-foot:focus {
-  color: var(--accent-color);
+.logo:hover span,
+.logo:focus span {
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -77,27 +80,29 @@ body {
 }
 
 .section-title {
-    color: #212121;
+  color: #212121;
 }
 
 /*button*/
 
 .button {
-    color: var(--primary-background-color);
-    background-color: var(--accent-color);
-    border-color: transparent;
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+  font-family: inherit;
 }
 
 .button:hover,
 .button:focus {
-    color: var(--accent-color);
-    background-color:  var(--primary-background-color);
+  color: var(--accent-color);
+  background-color: var(--primary-background-color);
 }
 
 .filter {
   color: var(--title-text-color);
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-color: transparent;
+  font-family: inherit;
 }
 
 .filter:hover,
@@ -112,7 +117,7 @@ body {
 }
 
 .address-foot .cont {
-  color:rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*font-family: 'Roboto', sans-serif; 
@@ -150,7 +155,6 @@ Address
 Roboto 400
 
 */
-
 
 /* accent-color: ##2196f3 - blue
 title-text-color: ##212121 - black (not logo) 
