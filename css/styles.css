@@ -8,6 +8,8 @@
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
+  
+  font-family: 'Roboto', sans-serif;
 }
 
 /* logo */
@@ -86,31 +88,69 @@ body {
     border-color: transparent;
 }
 
-.button.primary:hover,
-.button.primary:focus {
+.button:hover,
+.button:focus {
     color: var(--accent-color);
     background-color:  var(--primary-background-color);
 }
 
-.button.secondary {
+.filter {
   color: var(--title-text-color);
-  background-color:  var(--primary-background-color);
+  background-color: #F5F4FA;
+  border-color: transparent;
 }
 
-.button.secondary:hover,
-.button.secondary:focus {
+.filter:hover,
+.filter:focus {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
 }
 
 /* footer */
-.address-addr {
-  color: var(--primary-background-color)
+.address {
+  color: var(--primary-background-color);
 }
 
-.address .cont {
+.address-foot .cont {
   color:rgba(255, 255, 255, 0.6);
 }
+
+/*font-family: 'Roboto', sans-serif; 
+font-family: 'Raleway', sans-serif;
+
+logo
+Raleway 700
+
+Filter, nav, 
+Roboto 500 
+
+hero
+Roboto 900
+Roboto 700
+
+features
+Roboto 700
+Roboto 400
+
+what we do
+Roboto 700
+
+Team
+Roboto 700
+Roboto 500
+Roboto 400
+
+
+
+portfolio
+Roboto 700
+Roboto 400
+
+Address
+Roboto 400
+
+*/
+
 
 /* accent-color: ##2196f3 - blue
 title-text-color: ##212121 - black (not logo) 
