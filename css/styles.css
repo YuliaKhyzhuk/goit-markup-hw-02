@@ -10,7 +10,7 @@ body {
   color: var(--primary-text-color);
 
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -19,7 +19,7 @@ body {
 .logo {
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
-
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 
@@ -102,6 +102,28 @@ body {
   text-transform: uppercase;
 }
 
+/*button*/
+
+.button {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+  font-family: inherit;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-background-color);
+}
+
 /* section */
 
 .section-title {
@@ -147,27 +169,7 @@ body {
   text-align: center;
 }
 
-/*button*/
-
-.button {
-  color: var(--primary-background-color);
-  background-color: var(--accent-color);
-  border-color: transparent;
-  font-family: inherit;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-
-  cursor: pointer;
-}
-
-.button:hover,
-.button:focus {
-  color: var(--accent-color);
-  background-color: var(--primary-background-color);
-}
+/* filter */
 
 .filter {
   color: var(--title-text-color);
@@ -204,7 +206,7 @@ body {
 
 .portfolio-list .type {
   color: var(--primary-text-color);
-  font-weight: 400;
+  
   font-size: 16px;
   line-height: 1.88;
 }
