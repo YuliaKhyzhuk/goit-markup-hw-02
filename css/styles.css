@@ -10,9 +10,6 @@ body {
   color: var(--primary-text-color);
 
   font-family: 'Roboto', sans-serif;
-
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* logo */
@@ -112,7 +109,7 @@ body {
   font-family: inherit;
 
   font-weight: 700;
-  /* font-size: 16px; */
+  font-size: 16px; 
   line-height: 1.88;
   letter-spacing: 0.06em;
 
@@ -158,14 +155,13 @@ body {
 
 .team-list .title {
   font-weight: 500;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
 }
 
 .team-list .position {
-  /* font-size: 16px; */
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
@@ -180,7 +176,7 @@ body {
   font-family: inherit;
 
   font-weight: 500;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
 
@@ -208,7 +204,6 @@ body {
 .portfolio-list .type {
   color: var(--primary-text-color);
 
-  /* font-size: 16px; */
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
