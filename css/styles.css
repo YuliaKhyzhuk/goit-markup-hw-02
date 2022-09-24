@@ -22,6 +22,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 
   text-decoration: none;
 }
@@ -96,7 +97,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
+  letter-spacing: 0.06em;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -111,7 +112,7 @@ body {
   font-family: inherit;
 
   font-weight: 700;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.88;
   letter-spacing: 0.06em;
 
@@ -132,7 +133,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  /* text-align: center; */
+  letter-spacing: 0.03em;
 }
 
 .feature-list .title,
@@ -145,27 +146,28 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .feature-list .text {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .team-list .title {
   font-weight: 500;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.19;
-
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
 .team-list .position {
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.19;
-
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -178,9 +180,8 @@ body {
   font-family: inherit;
 
   font-weight: 500;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.6;
-
   letter-spacing: 0.03em;
 
   cursor: pointer;
@@ -207,17 +208,26 @@ body {
 .portfolio-list .type {
   color: var(--primary-text-color);
 
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
 .address {
   color: var(--primary-background-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address-foot .cont {
   color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 
   text-decoration: none;
 }
