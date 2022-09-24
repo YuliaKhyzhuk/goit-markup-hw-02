@@ -10,7 +10,7 @@ body {
   color: var(--primary-text-color);
 
   font-family: 'Roboto', sans-serif;
-  
+
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -206,7 +206,7 @@ body {
 
 .portfolio-list .type {
   color: var(--primary-text-color);
-  
+
   font-size: 16px;
   line-height: 1.88;
 }
@@ -222,68 +222,6 @@ body {
   text-decoration: none;
 }
 
-/*font-family: 'Roboto', sans-serif; 
-font-family: 'Raleway', sans-serif;
-
-logo
-Raleway 700
-
-Filter, nav, 
-Roboto 500 
-
-hero
-Roboto 900
-Roboto 700
-
-features
-Roboto 700
-Roboto 400
-
-what we do
-Roboto 700
-
-Team
-Roboto 700
-Roboto 500
-Roboto 400
-
-
-
-portfolio
-Roboto 700
-Roboto 400
-
-Address
-Roboto 400
-
-*/
-
-/* accent-color: ##2196f3 - blue
-title-text-color: ##212121 - black (not logo) 
-primary-text-color: ##757575 - grey
-
-.site-nav a:active {
-  color: ;
+.address-foot {
+  font-style: normal;
 }
-*/
-
-/* logo black  #000000 blue #2196F3
-nav
-#212121
-head phjone #757575
-
-hero, footer background black #2F303A 
-hero text white  #FFFFFF
-accent blue замовити, logo, email #2196F3
-
-features h3 #212121
-features text #757575
-
-what we do, our team, team names #212121
-team background
-team positions #757575
-
-footer logo blue #2196F3 white #FFFFFF
-address #FFFFFF
-email tel rgba(255, 255, 255, 0.6)
-*/
